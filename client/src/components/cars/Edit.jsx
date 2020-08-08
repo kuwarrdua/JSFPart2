@@ -36,7 +36,7 @@ const Edit = function (props) {
         });
         setRedirect(true);
       } else {
-        toast("There was an issue updating the car profile", {
+        toast("There was an issue updating the car profile... OHNO", {
           type: toast.TYPE.ERROR
         });
       }
